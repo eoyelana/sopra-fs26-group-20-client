@@ -18,7 +18,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>Group 20 - TripTogether</h1>
+        <h1 className={`${styles.groupTitle} text-black font-bold text-3xl mb-8`}>Group 20 - TripTogether</h1>
         <ol>
           <li>
             <code>app/page.tsx</code>{" "}

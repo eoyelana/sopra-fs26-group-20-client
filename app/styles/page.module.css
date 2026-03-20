@@ -32,6 +32,7 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
+  color: black !important;
 }
 
 .main ol {
@@ -42,6 +43,7 @@
   line-height: 24px;
   letter-spacing: -0.01em;
   list-style-position: inside;
+  color: black !important;
 }
 
 .main li:not(:last-of-type) {
@@ -54,6 +56,7 @@
   padding: 2px 4px;
   border-radius: 4px;
   font-weight: 600;
+  color: black !important;
 }
 
 .ctas {
@@ -162,4 +165,16 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+.main h1 {
+  color: black !important;
+}
+
+.main li {
+  color: black !important;
+}
+
+.main li::marker {
+  color: black !important;
 }
